@@ -1,0 +1,18 @@
+.movie-grids{
+    display:grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    height: 500px;
+}
+
+.movie-poster{
+    display: grid; 
+    background-color: lightblue;
+    grid-template-rows: 400px 100px;
+}
+
+.center-image{
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
