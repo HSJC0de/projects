@@ -1,18 +1,24 @@
 .movie-grids{
     display:grid; 
     grid-template-columns: 1fr 1fr 1fr; 
-    height: 500px;
+    height: 700px;
 }
 
 .movie-poster{
     display: grid; 
-    background-color: lightblue;
-    grid-template-rows: 400px 100px;
+    grid-template-rows: 600px 100px;
 }
 
 .center-image{
-    height: 400px;
+    height: 600px;
+    width: 400px;
+    border-radius: 3rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    transition: opacity 1s;
+}
+
+.center-image:hover{
+    opacity: 0.2;
 }
