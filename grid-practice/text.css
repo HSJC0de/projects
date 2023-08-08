@@ -1,0 +1,37 @@
+.layout{
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: 5rem 45rem 5rem;
+}
+
+div{
+  height: 100%;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 5rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  column-gap: 1rem;
+  row-gap: 1rem;
+}
+
+.header{
+  background-color: lightblue;
+  grid-column: 2 / -1;
+}
+
+.footer{
+  background-color: lightcoral;
+  grid-column: 2 / -1;
+}
+
+.content{
+  background-color: lightgreen;
+  grid-column: 2 / -1;
+}
+
+.nav-bar{
+  background-color: lightgrey;
+  grid-row: 1 / -1;
+  grid-column: 1 / 2;
+}
