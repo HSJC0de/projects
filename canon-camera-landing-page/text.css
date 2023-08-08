@@ -1,0 +1,15 @@
+.header{
+    display: grid;
+    background-color: #333333;
+    height: 10rem;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.brand-name{
+    margin: 0px;
+    font-family: 'Iceland', cursive;
+    font-size: 6rem;
+    text-align: center;
+    padding-top: 2.094rem;
+    padding-bottom: 2.094rem;
+}
