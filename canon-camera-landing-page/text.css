@@ -13,3 +13,20 @@
     padding-top: 2.094rem;
     padding-bottom: 2.094rem;
 }
+
+.content{
+    height: 30rem;
+    background-color: #4a4a4a;
+}
+
+.content-text{
+    margin: 0;
+    padding: 0;
+    display: block;
+    position: relative;
+    font-family: 'Iceland', cursive;
+    font-size: 8rem;
+    text-align: right;
+    top: -350px;
+    right: 100px;
+}
