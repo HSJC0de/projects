@@ -1,0 +1,64 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+
+.item-1{
+    display:flex;
+    background-color: #1c1c1c;
+    grid-area: 1 / 1 / 2 / -1;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.item-2{
+    background-color: #4a4a4a;
+    grid-area: 2 / 1 /6 / -1;
+}
+
+.item-3{
+    grid-area: 3 / 6 / 5 / 12;
+    position: relative;
+    top: -50px;
+
+}
+
+.item-4{
+    display: flex;
+    background-color: #6d6d6d;
+    grid-area: 6 / 1 /7 /-1;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-5{
+    background-color: #4a4a4a;
+    grid-area: 2 / 3 / 6 / 8;
+}
+
+.content-text{
+    margin: 0 ;
+    font-family: 'Iceland', cursive;
+    font-size: 8rem;
+    text-align: right;
+    word-spacing: 0px;
+    line-height: 120px;
+    color:white;
+}
+
+.brand-name{
+    margin: 0;
+    padding: 0;
+    font-family: 'Iceland', cursive;
+    font-size: 5rem;
+    color:white;
+}
+
+.buy-now{
+    margin: 0;
+    padding: 0;
+    font-family: 'Iceland';
+    font-size: 2rem;
+}
