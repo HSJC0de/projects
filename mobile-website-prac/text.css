@@ -24,7 +24,7 @@ h1{
 
 
 
-.title , .author, .paragraph-1{
+.title , .author, .paragraph{
   display: flex;
   margin: 0;
   padding-top: 0.5rem;
@@ -39,9 +39,21 @@ h1{
   justify-content: center;
 }
 
-.paragraph-1{
+.paragraph{
+  font-weight: normal;
+  line-height: 1.5rem;
   padding-top: 1rem;
   max-width: 75%;
   margin-left: auto;
   margin-right:auto;
+}
+
+@media (min-width: 1025px){
+  .paragraph{
+    font-size: 1.25rem;
+    max-width: 60%;
+    line-height: 1.75rem;
+  }
+
+
 }
