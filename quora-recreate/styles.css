@@ -1,0 +1,95 @@
+.container{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #e5e4e2;
+}
+
+.nav-bar-container{
+  background-color: white;
+  display:flex;
+  width:100%;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.search-bar{
+  height:48px;
+  border:none;
+  padding: none;
+  padding-left: 10px;
+}
+
+.try-quora-button{
+  border:none;
+  width: 100px;
+  height:50px;
+  border-radius: 2rem;
+}
+
+.main-content-container{
+  display: flex;
+}
+
+.category-container{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.post-container{
+  display:flex;
+  flex-direction: column;
+  max-width: 600px;
+}
+
+.box-container{
+  background-color: #F5F5F5;
+  display:flex;
+  flex-direction: column;
+  border: solid;
+  border-width: 1px;
+  margin-bottom: 1rem;
+}
+
+.ask-wrapper{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.ask-bar-container{
+  padding-left: 10px;
+  padding-right: 1rem;
+}
+
+.ask-container{
+  padding-left: 10px;
+}
+
+.ask-bar{
+  border: none;
+  border-radius: 2rem;
+  width: 20rem;
+  height: 2rem;
+  background-color: grey;
+  color:white;
+  padding-left: 10px;
+}
+
+.ask-bar::placeholder{
+  color: white;
+}
+
+.three-items{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.item{
+  display:flex;
+  width:100%;
+  justify-content: center;
+}
