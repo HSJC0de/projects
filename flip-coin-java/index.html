@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flip A Coin</title>
+</head>
+<body>
+  
+
+  <div class="container">
+    <div class="title-container">
+      <p class="title">Flip A Coin</p>
+    </div>
+
+
+
+    <div button-container>
+      <button class="flip-button"
+      onclick="
+      flipCoin();
+      console.log(score);
+      
+      ">
+        FLIP
+      </button>
+    </div>
+
+    <div class="stats-container">
+      <div class="heads-container">
+        <p id="heads">Head: 0</p>
+      </div>
+
+      <div class="tails-container">
+        <p id="tails">Tail: 0</p>
+      </div>
+    </div>
+
+    <script>
+      const score ={
+        headCounter: 0,
+        tailCounter: 0
+      };
+
+      function flipCoin(){
+        const result = Math.random() * 2;
+        if (result >= 0 && result < 1){
+          score.headCounter++;
+        }
+        else{
+          score.tailCounter++;
+        }
+
+        document.getElementById('heads').innerHTML = "Heads: " + score.headCounter;
+        document.getElementById('tails').innerHTML = "Tails: " + score.tailCounter;
+
+      }
+
+    </script>
+
+
+  </div>
+
+
+</body>
+</html>
