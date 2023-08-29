@@ -11,6 +11,7 @@ const product = {
   }
 };
 
+
 console.log(product);
 console.log(product.name);
 console.log(product.price);
