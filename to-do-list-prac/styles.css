@@ -1,0 +1,89 @@
+body{
+  background-color: #A28089;
+}
+
+
+p{
+  color:#EDF7F6;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #FFA8B6;
+  width: 400px;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  border-radius: 3rem;
+
+  padding-bottom: 1rem;
+}
+
+header{
+  margin: 0;
+  padding: 0;
+  margin-top:1rem;
+  margin-bottom: 1rem;
+
+  font-size: 3rem;
+  color: #EDF7F6;
+}
+
+.to-do-list{
+  margin-bottom: 1rem;
+
+  border-color: #9DF9EF;
+  background-color: #51E2F5;
+
+  border-style: dotted;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 0.2rem;
+
+  border-radius: 1rem;
+}
+
+.add-button{
+  border-color: #9DF9EF;
+  background-color: #51E2F5;
+  border-style: dotted;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 1rem;
+}
+
+.task-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.remove-button{
+  height: 3rem;
+  margin-right: 1rem;
+  border:dotted;
+  border-radius: 0.5rem;
+  background-color: #51E2F5;
+  border-color: #9DF9EF;
+}
+
+.item{
+  width: 300px;
+  word-wrap: break-word;
+  margin: 0;
+}
