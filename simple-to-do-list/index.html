@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple To Do List</title>
+</head>
+<body>
+  
+  <header>To Do List</header>
+  <input placeholder="Input Task" class="input-form" onkeydown="
+  if (event.key === 'Enter'){
+    addItem();
+  }
+  ">
+  <button class="add-button" onclick="
+  addItem();
+  "
+  >Add</button>
+  <div class="task-display">Tasks: </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
