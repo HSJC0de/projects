@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+SC&display=swap" rel="stylesheet">
+  
+  </head>
+  <body>
+
+    <div class="container">
+      <header>
+        <h1>
+          To Do List
+        </h1>
+      </header>
+      <div class="container-content">
+        <div class="container-input-section">
+          <input class="input-element" placeholder="Enter a task">
+          <button class="button-add"
+          onclick="
+          addTask();
+          "
+          >
+            <img src="img/add.png">
+          </button>
+        </div>
+        <div class="container-list-of-tasks">
+          <h2>Tasks</h2>
+          <div class="container-item">
+      
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>

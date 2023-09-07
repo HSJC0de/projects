@@ -1,0 +1,102 @@
+body{
+  background-color: #41B3A3;
+}
+
+.container{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #85DCB1;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem 3rem 5rem 3rem;
+  border-radius: 2rem;
+}
+
+h1{
+  margin: 0;
+  font: 400 5rem 'Alegreya SC', serif;
+  color: #FFFFFF;
+  margin-bottom: 2rem;
+ }
+
+.container-content{
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+}
+
+.container-input-section{
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+
+.input-element{
+  padding: 1rem 2rem 1rem 2rem;
+  margin-right: 1rem;
+  border-style: solid;
+  border-color: #41B3A3;
+}
+
+.button-add{
+  background-color: #41B3A3;
+  border: none;
+  transition: opacity 0.23s;
+  width: 51px;
+  height: 51px;
+  padding-top: 3px;
+  border-radius: 100rem;
+}
+
+.button-add:hover, .button-remove:hover{
+  opacity: 0.3;
+}
+
+.button-add:active, .button-remove:active{
+  opacity: 0.15;
+}
+
+.container-list-of-tasks{
+  display: flex;
+  flex-direction: column;
+}
+
+.item{
+  display: flex;
+  flex-direction: row;
+
+  margin:0;
+  padding:0;
+
+  margin-bottom: 1rem;
+}
+
+.button-remove{
+  background-color: #41B3A3;
+  border: solid;
+  border-width: 2px;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  margin-right: 1rem;
+  transition: opacity 0.23s;
+}
+
+.container-item{
+  display: flex;
+  flex-direction: column;
+}
+
+.container-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.item-text{
+
+  margin: 0;
+  padding: 0;
+  max-width: 32ch;
+  font: 400 1rem'Alegreya SC', serif;
+}
